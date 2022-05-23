@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="./style.css">
+	<link rel="shortcut icon" href="./iconslogo.svg">
+	<title>Maxim Kosarev</title>
+</head>
+<body>
+	<header>
+		<div class="header">
+			<a class="header__home-button" href ="index.html">
+				<div class="header__logo">
+					<img src="./icons/VK_Monochrome_Full_Logo.svg" alt="logo"> 
+				</div>
+			</a>
+			<div class="search">
+				 <input type="text" class="search__row" placeholder="Поиск" id="search-row">
+					<label for="search-row">
+						<div class="search__logo">
+							 <img src="./icons/search_icon.svg">
+						</div>
+					</label>
+			</div>     
+			<div class="notification">
+				<div class="notification__logo">
+					<img src="./icons/notifications.svg">
+				</div>
+			</div>
+			<div class="audio-player">
+				<div class="audio-player__controls">
+					<div class="audio-player__back">
+						<img src="./icons/skip_previous_white_24dp.svg">
+					</div>
+					<div class="audio-player__play">
+						<img src="./icons/play_arrow_white_24dp.svg">
+					</div>
+					<div class="audio-player__next">
+						<img src="./icons/skip_next_white_24dp.svg">
+					</div>
+				</div>
+				<div class="audio-player__trackname">
+				Parov Stelar - Purple Moon
+				</div>
+			</div>
+			<div class="user">
+				<div class="user__name">
+					Maxim
+				</div>
+				<div class="user__photo">
+					<img class="vkconnect__photo" src="./photo/photo.jpg">
+				</div>
+				<div class="arrowdown">
+					<img src="./icons/keyboard_arrow_down_white_24dp.svg">
+				</div>
+				<div class="dropdown">
+					<div class="vkconnect">
+						<img class="vkconnect__photo" src="./photo/photo.jpg">
+						<div class="vkconnect__subscription">
+							<div class="vkconnect__name">
+								Maxim Kosarev		
+							</div>
+							<div class="vkconnect__label">
+								Перейти в VK Connect
+							</div>
+						</div>
+					</div>
+					<hr class="dropdown__delimeter">
+				</div>
+			</div>
+		</div>
+	</header>
+	<div class="page">
+		<div class="menu">
+			<div class="menu__button">
+				<div class="menu__button-mypagelogo">
+					<img src="./icons/account_circle_white_24dp.svg">
+				</div>
+				<div class="menu__button-text">
+						Моя страница
+				</div>
+			</div>
+			<div class="menu__button">
+				<div class="menu__button-newslogo">
+					<img src="./icons/article_white_24dp.svg">
+				</div>
+				<div class="menu__button-text">
+						Новости
+				</div>
+			</div>
+			<div class="menu__button">
+				<div class="menu__button-msglogo">
+					<img src="./icons/email_white_24dp.svg">
+				</div>
+				<div class="menu__button-text">
+						Мессенджер
+				</div>
+			</div>
+			<div class="menu__button">
+				<div class="menu__button-friendslogo">
+					<img src="./icons/people_white_24dp.svg">
+				</div>
+				<div class="menu__button-text">
+						Друзья
+				</div>
+			</div>
+			<div class="menu__button">
+				<div class="menu__button-communitylogo">
+					<img src="./icons/groups_white_24dp.svg">
+				</div>
+				<div class="menu__button-text">
+						Сообщества
+				</div>
+			</div>
+			<div class="menu__button">
+				<div class="menu__button-photologo">
+					<img src="./icons/image_white_24dp.svg">
+				</div>
+				<div class="menu__button-text">
+						Фотографии
+				</div>
+			</div>
+			<div class="menu__button">
+				<div class="menu__button-musiclogo">
+					<img src="./icons/music_note_white_24dp.svg">
+				</div>
+				<div class="menu__button-text">
+						Музыка
+				</div>
+			</div>
+			<div class="menu__button">
+				<div class="menu__button-videologo">
+					<img src="./icons/movie_white_24dp.svg">
+				</div>
+				<div class="menu__button-text">
+						Видео
+				</div>
+			</div>
+			<div class="menu__button">
+				<div class="menu__button-clipslogo">
+					<img src="./icons/videocam_white_24dp.svg">
+				</div>
+				<div class="menu__button-text">
+						Клипы
+				</div>
+			</div>
+			<div class="menu__button">
+				<div class="menu__button-gameslogo">
+					<img src="./icons/sports_esports_white_24dp.svg">
+				</div>
+				<div class="menu__button-text">
+						Игры
+				</div>
+			</div>
+			<div class="menu__button">
+				<div class="menu__button-adslogo">
+					<img src="./icons/format_list_bulleted_white_24dp.svg">
+				</div>
+				<div class="menu__button-text">
+						Объявления
+				</div>
+			</div>
+		</div>
+		<div class="photo-column">
+			<div class="photo-block">
+				<div class="photo-block__photo">
+					<img class="avatar" src="./photo/photo.jpg" alt="photo">
+					<div class="modal-photo">
+						<div class="modal-photo__content">
+							
+						</div>
+					</div>
+					<button type="button" class="edit-button">Редактировать</button>
+				</div>
+				<div class="photo-block__buttons">
+					<div class="stat__button">
+						<div class="stat__button-statlogo">
+							<img src="./icons/trending_up_white_24dp.svg">
+						</div>
+						<div class="stat__button-text">
+							Статистика страницы
+						</div>
+					</div>
+					<div class="stat__button">
+						<div class="stat__button-statlogo">
+							<img src="./icons/update_white_24dp.svg">
+						</div>
+						<div class="stat__button-text">
+							Воспоминания
+						</div>
+					</div>
+					<div class="stat__button">
+						<div class="stat__button-statlogo">
+							<img src="./icons/payment_white_24dp.svg">
+						</div>
+						<div class="stat__button-text">
+							Денежные переводы
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="information-column">
+			<div class="information">
+				<div class="name-block">
+					<div class="name-field">
+						<div class="fullname">
+							Maxim Kosarev
+						</div>
+						<div class="status">
+							online
+						</div>
+					</div>
+					<input class="status-field" type="text" placeholder="установить статус">
+				</div>
+				<div class="detailed-information">
+					<div class="pre-info">
+						<div class="city">
+							Город:
+						</div>
+						<div class="job">
+							Место работы:
+						</div>
+					</div>
+					<div class="user-info">
+						<div class="city">
+							Wellington
+						</div>
+						<div class="job">
+							LOOK3
+						</div>
+					</div>
+				</div>
+				<button class="show-detailed-info">
+					<span class="show-detailed-info__less">Показать подробную информацию</span>
+					<span class="show-detailed-info__more">Скрыть подробную информацию</span>
+				</button>
+				<div class="user-more-info">
+					<div class="user-more-info__main">
+						<div class="user-more-info__main-header">
+							Основная информация
+						</div>
+						<div class="user-more-info__main-city">
+							Родной город:
+						</div>
+						<div class="user-more-info__main-lang">
+							Языки:
+						</div>
+						<div class="user-more-info__user-city">
+							Wellington
+						</div>
+						<div class="user-more-info__user-lang">
+							English
+						</div>
+					</div>
+				</div>
+				<div class="line-block">
+					<div class="line-block__item">
+						<div class="topside-text">54</div>друга
+					</div>
+					<div class="line-block__item">
+						<div class="topside-text">144</div>подписчика
+					</div>
+					<div class="line-block__item">
+						<div class="topside-text">1</div>фотография
+					</div>
+					<div class="line-block__item">
+						<div class="topside-text">1</div>видеозапись
+					</div>
+					<div class="line-block__item">
+						<div class="topside-text">146</div>подарков
+					</div>
+				</div>
+			</div>
+			</div>
+		</div>
+	</div>
+	<script src="./js/main.js"></script>
+</body>
+</html>
